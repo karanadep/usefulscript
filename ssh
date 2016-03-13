@@ -1,0 +1,10 @@
+
+NETWORKING=yes
+#HOSTNAME=localhost.localdomain
+HOSTNAME=node7.localdomain
+GATEWAY=172.17.0.1
+
+NETWORKING=yes
+#HOSTNAME=localhost.localdomain
+HOSTNAME=root@node7.localdomain.localdomain
+GATEWAY=172.17.0.1
