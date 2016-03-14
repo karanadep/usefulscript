@@ -1,0 +1,14 @@
+node1.localdomain:client
+node2.localdomain:hdfs_namenode
+node3.localdomain:hdfs_secondary_namenode
+node4.localdomain:resource_manager
+node4.localdomain:mapreduce_history_server
+node5.localdomain:yarn_node_manager
+node5.localdomain:hdfs_datanode
+node5.localdomain:mapreduce
+node6.localdomain:yarn_node_manager
+node6.localdomain:hdfs_datanode
+node6.localdomain:mapreduce
+node7.localdomain:yarn_node_manager
+node7.localdomain:hdfs_datanode
+node7.localdomain:mapreduce
