@@ -31,8 +31,7 @@ case $var2 in
                         ;;
         resource_manager)
                         echo -e "${var1}resource_manager\n"
-			ssh root@${var1} 'yum clean all; yum install -y hadoop-yarn-resourcemanager' < /dev/null
-			''
+			ssh root@${var1} 'yum clean all; yum install -y hadoop-yarn-resourcemanager' < /dev/null			
                         ;;
         mapreduce_history_server)
                         echo -e "${var1}mapreduce_history_server\n"
@@ -52,7 +51,7 @@ case $var2 in
                         ;;
         client)
                         echo -e "${var1}client\n"
-			ssh root@${var1} 'sudo yum clean all; sudo yum install -y hadoop-client' < /dev/null
+			ssh root@${var1} 'yum clean all; yum install -y hadoop-client' < /dev/null
                         ;;
 esac
 
