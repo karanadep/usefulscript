@@ -53,7 +53,7 @@ done
 echo -e "$hostsfile" | ssh root@${var1} 'cat > /etc/hosts'
 }
 
-ssh root@${var1} '/sbin/reboot' < /dev/null
+#ssh root@${var1} '/sbin/reboot' < /dev/null
 
 echo "${var1}-${var2}"
 done
