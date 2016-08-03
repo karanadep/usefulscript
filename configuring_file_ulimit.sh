@@ -11,7 +11,10 @@ do
                 continue
         fi
 
-#appending ulimit to /etc/security/limits.conf
+# has info about ulimit
+# https://anandarajpandey.com/tag/file-descriptors/
+#
+# appending ulimit to /etc/security/limits.conf
 printf "hdfs  -       nofile  32768
 hdfs  -       nproc   2048
 hbase -       nofile  32768
